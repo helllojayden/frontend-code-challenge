@@ -1,0 +1,27 @@
+@import '../styles/variable.less';
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  span {
+    color: @primary-color;
+    display: block;
+    &:nth-child(1), &:nth-child(2) {
+      font-size: 2em;
+      line-height: 1.2;
+      font-weight: 500;
+    }
+    &:nth-child(3) {
+      font-size: 1em;
+      margin-top: 2em;
+    }
+  }
+  .button {
+    width: 20em;
+    margin: 2em 0;
+  }
+}
