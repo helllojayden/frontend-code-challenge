@@ -22,6 +22,12 @@ To create a production build:
 npm run build
 ```
 
+To launch the test runner:
+
+```sh
+npm run test
+```
+
 ## Running
 
 Open the file `dist/index.html` in your browser
