@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Modal from '../components/Modal';
-import Button from '../components/Button';
+import Modal from '../../components/Modal';
+import Button from '../../components/Button';
 import InviteForm from './components/InviteForm';
 import Success from './components/Success';
 

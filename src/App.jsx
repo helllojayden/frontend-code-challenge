@@ -1,8 +1,8 @@
 import React from 'react';
-import { hot } from 'react-hot-loader/root';
+// import { hot } from 'react-hot-loader/root';
 
-import Layout from './Layout';
-import Invite from './Invite';
+import Layout from './components/Layout';
+import Invite from './pages/Invite';
 
 const { Header, Content, Footer } = Layout;
 
@@ -23,4 +23,4 @@ class App extends React.Component {
   }
 }
 
-export default hot(App);
+export default App;

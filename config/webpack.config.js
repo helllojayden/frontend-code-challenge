@@ -10,7 +10,7 @@ const { NODE_ENV } = process.env;
 module.exports = {
   mode: NODE_ENV,
   devtool: NODE_ENV === 'development' ? 'source-map' : false,
-  entry: ['react-hot-loader/patch', './src/index.js'],
+  entry: ['./src/index.js'],
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: '[name]_[hash:8].js',
@@ -55,9 +55,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
-    alias: {
-      'react-dom': '@hot-loader/react-dom',
-    },
   },
   plugins: [
     new HtmlWebpackPlugin({

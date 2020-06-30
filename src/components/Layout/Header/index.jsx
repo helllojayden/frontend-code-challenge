@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './indesx.less';
+import styles from './index.less';
 
 function Header(props) {
   return (
